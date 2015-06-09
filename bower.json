@@ -1,0 +1,11 @@
+{
+  "name": "jsLDA",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.2.0",
+    "modernizr": "~2.8.2",
+    "xregexp": "~2.0.0",
+    "d3": "~3.5.5",
+    "queue-async": "~1.0.7"
+  }
+}

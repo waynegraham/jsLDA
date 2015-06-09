@@ -43,3 +43,24 @@ Download results:
 
 You can create reports about your topic model. Hit the `Downloads` tab.
 Reports are in CSV format. The `sampling state` file contains the same information as a Mallet state file, but in a more compact format. 
+
+## Developer Setup
+
+This app uses node and bower packages to manage the application.
+Assuming you have `node` installed, you will need to run the following
+commands in the terminal:
+
+  $ npm install
+  $ bower install
+
+After the packages are installed, you can run a server with:
+
+  $ grunt serve
+
+When you are ready to deploy, simply run the `dist` task in grunt.
+
+  $ grunt dist
+
+You can also use the `buildcontrol:pages` task to deploy directly to
+your `gh-pages` branch on Github. Simply change the `remote` to your
+fork of the project.
